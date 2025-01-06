@@ -1,0 +1,9 @@
+<h1>convert awg </h1>
+<h2>go back</h2>
+<ul>
+  <% @currencies.keys.each do |symbol| %>
+    <li>
+      <a href="/<%= symbol %>">convert 1 <%= symbol %> ...</a>
+    </li>
+  <% end %>
+</ul>
